@@ -41,9 +41,11 @@ buttonInserir.addEventListener('click', function (event) {
 
 
 
-const ulElement = document.querySelector('.tasks__list');
+
 
 function renderElements(tasks) {
+
+const ulElement = document.querySelector('.tasks__list');
     
     ulElement.innerText = '';
   
